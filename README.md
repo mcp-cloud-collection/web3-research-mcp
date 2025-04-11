@@ -1,11 +1,11 @@
 # Web3 Research MCP
 
-An MCP (Model Context Protocol) server for researching cryptocurrency tokens and providing comprehensive analysis reports.
+Deep Research for crypto - free & fully local
 
 ## 🚀 Preview
 
-[![Preview](https://i.imgur.com/b9WfMSk.png)]
-[![Preview2](https://i.imgur.com/qjqvwmr.png)]
+[Preview](https://i.imgur.com/b9WfMSk.png)
+[Preview2](https://i.imgur.com/qjqvwmr.png)
 
 ## Features
 
