@@ -2,7 +2,12 @@
 
 An MCP (Model Context Protocol) server for researching cryptocurrency tokens and providing comprehensive analysis reports.
 
-## 🚀 Features
+## 🚀 Preview
+
+[![Preview](https://i.imgur.com/b9WfMSk.png)]
+[![Preview2](https://i.imgur.com/qjqvwmr.png)]
+
+## Features
 
 - **Comprehensive Research**: Gather detailed information about any cryptocurrency token
 - **Multi-Source Analysis**: Research across multiple sources including CoinGecko, CoinMarketCap, DeFiLlama, and more
@@ -13,15 +18,13 @@ An MCP (Model Context Protocol) server for researching cryptocurrency tokens and
 ## 📋 Requirements
 
 - Node.js (v16 or higher)
-- TypeScript
-- Duck Duck Scrape for web searches
 
 ## 🔧 Installation & Setup
 
 1. Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/web3-research-mcp.git
+git clone https://github.com/aaronjmars/web3-research-mcp.git
 cd web3-research-mcp
 ```
 
@@ -37,13 +40,18 @@ npm install
 npm run build
 ```
 
-4. Run the server
+Optional : Run the server (handled by Claude)
 
 ```bash
 npm start
 ```
 
 ## 🔌 Using with Claude Desktop
+
+Edit your Claude Desktop config file
+
+- Windows: %APPDATA%\Claude\claude_desktop_config.json
+- macOS: ~/Library/Application Support/Claude/claude_desktop_config.json
 
 Add this to your Claude Desktop configuration file:
 
@@ -61,6 +69,7 @@ Add this to your Claude Desktop configuration file:
 ```
 
 Make sure to replace the path with the absolute path to your server.js file.
+Then restart Claude Desktop
 
 ## 🛠️ Tools
 

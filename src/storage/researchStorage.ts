@@ -151,7 +151,6 @@ export class ResearchStorage {
     };
 
     this.currentResearch.logs.push(logEntry);
-    console.log(`[${logEntry.timestamp}] ${message}`);
   }
 
   completeResearch(): void {
@@ -171,7 +170,6 @@ export class ResearchStorage {
         filepath,
         JSON.stringify(this.currentResearch, null, 2)
       );
-      console.log(`Saved research data to ${filepath}`);
     } catch (error) {
       console.error("Failed to save research data:", error);
     }
