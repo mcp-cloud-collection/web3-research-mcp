@@ -1,13 +1,13 @@
 # Web3 Research MCP
 
-Deep Research for crypto - free & fully local
+Deep Research for crypto - free & fully local 🧠
 
 ## 🚀 Preview
 
-[Preview](https://i.imgur.com/b9WfMSk.png)
-[Preview2](https://i.imgur.com/qjqvwmr.png)
+![Preview](https://i.imgur.com/b9WfMSk.png)
+![Preview2](https://i.imgur.com/qjqvwmr.png)
 
-## Features
+## 🧠 Features
 
 - **Comprehensive Research**: Gather detailed information about any cryptocurrency token
 - **Multi-Source Analysis**: Research across multiple sources including CoinGecko, CoinMarketCap, DeFiLlama, and more
