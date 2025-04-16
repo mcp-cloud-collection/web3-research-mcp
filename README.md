@@ -1,4 +1,5 @@
 # Web3 Research MCP
+[![smithery badge](https://smithery.ai/badge/web3-research-mcp)](https://smithery.ai/server/web3-research-mcp)
 
 Deep Research for crypto - free & fully local 🧠
 
@@ -20,6 +21,14 @@ Deep Research for crypto - free & fully local 🧠
 - Node.js (v16 or higher)
 
 ## 🔧 Installation & Setup
+
+### Installing via Smithery
+
+To install web3-research-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/web3-research-mcp):
+
+```bash
+npx -y @smithery/cli install web3-research-mcp --client claude
+```
 
 1. Clone this repository
 
