@@ -84,6 +84,27 @@ Add this to your Claude Desktop configuration file:
 Make sure to replace the path with the absolute path to your server.js file.
 Then restart Claude Desktop
 
+## 🔌 Using with Cursor
+
+Go to: Settings -> Cursor Settings -> MCP -> Add new global MCP server
+Paste this into your Cursor ~/.cursor/mcp.json file. See Cursor MCP docs for more info.
+
+```json
+{
+  "mcpServers": {
+    "web3-research-mcp": {
+      "command": "node",
+       "args": [
+        "path/to/your/web3-research-mcp/dist/server.js"
+      ]
+    }
+  }
+}
+```
+
+Make sure to replace the path with the absolute path to your server.js file.
+Then restart Cursor
+
 ## 🛠️ Tools
 
 ### create-research-plan
