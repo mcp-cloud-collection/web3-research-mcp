@@ -2,6 +2,10 @@
 
 Deep Research for crypto - free & fully local 🧠
 
+<a href="https://glama.ai/mcp/servers/@aaronjmars/web3-research-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@aaronjmars/web3-research-mcp/badge" alt="Web3 Research MCP server" />
+</a>
+
 ## 🚀 Preview
 
 ![Preview](https://i.imgur.com/b9WfMSk.png)
