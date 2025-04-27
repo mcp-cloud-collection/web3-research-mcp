@@ -1,17 +1,28 @@
 {
   "name": "web3-research-mcp",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Deep Research for crypto - free & fully local",
+  "main": "dist/server.js",
   "type": "module",
+  "bin": {
+    "web3-research-mcp": "./bin/cli.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
-    "dev": "tsc && node dist/server.js"
+    "dev": "tsc && node dist/server.js",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "web3",
+    "crypto",
+    "research",
+    "mcp",
+    "claude",
+    "ai"
+  ],
+  "author": "aaronjmars",
   "license": "Apache-2.0",
-  "description": "Web3 Research MCP Server",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.9.0",
     "cheerio": "^1.0.0-rc.12",
@@ -21,9 +32,13 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.35",
     "@types/node": "^22.14.0",
-    "@types/node-fetch": "^2.6.4",
+    "@types/node-fetch": "^2.6.12",
     "@types/turndown": "^5.0.4",
     "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }

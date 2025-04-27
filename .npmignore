@@ -1,0 +1,10 @@
+# Development files
+src/
+.git*
+.vscode/
+.idea/
+*.log
+tests/
+
+# Include dist directory in the package
+# !dist/

@@ -34,31 +34,6 @@ To install web3-research-mcp for Claude Desktop automatically via [Smithery](htt
 npx -y @smithery/cli install web3-research-mcp --client claude
 ```
 
-1. Clone this repository
-
-```bash
-git clone https://github.com/aaronjmars/web3-research-mcp.git
-cd web3-research-mcp
-```
-
-2. Install dependencies
-
-```bash
-npm install
-```
-
-3. Build the project
-
-```bash
-npm run build
-```
-
-Optional : Run the server (handled by Claude)
-
-```bash
-npm start
-```
-
 ## 🔌 Using with Claude Desktop
 
 Edit your Claude Desktop config file
@@ -72,16 +47,13 @@ Add this to your Claude Desktop configuration file:
 {
   "mcpServers": {
     "web3-research-mcp": {
-      "command": "node",
-      "args": [
-        "path/to/your/web3-research-mcp/dist/server.js"
-      ]
+      "command": "npx",
+      "args": ["-y", "web3-research-mcp@latest"]
     }
   }
 }
 ```
 
-Make sure to replace the path with the absolute path to your server.js file.
 Then restart Claude Desktop
 
 ## 🔌 Using with Cursor
@@ -93,16 +65,13 @@ Paste this into your Cursor ~/.cursor/mcp.json file. See Cursor MCP docs for mor
 {
   "mcpServers": {
     "web3-research-mcp": {
-      "command": "node",
-       "args": [
-        "path/to/your/web3-research-mcp/dist/server.js"
-      ]
+      "command": "npx",
+      "args": ["-y", "web3-research-mcp@latest"]
     }
   }
 }
 ```
 
-Make sure to replace the path with the absolute path to your server.js file.
 Then restart Cursor
 
 ## 🛠️ Tools
