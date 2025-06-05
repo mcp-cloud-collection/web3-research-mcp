@@ -1,5 +1,5 @@
 # Web3 Research MCP
-[![smithery badge](https://smithery.ai/badge/web3-research-mcp)](https://smithery.ai/server/web3-research-mcp)
+[![smithery badge](https://smithery.ai/badge/@aaronjmars/web3-research-mcp)](https://smithery.ai/server/@aaronjmars/web3-research-mcp)
 
 Deep Research for crypto - free & fully local 🧠
 
